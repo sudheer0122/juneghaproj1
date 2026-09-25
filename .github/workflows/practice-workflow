@@ -1,0 +1,12 @@
+name: Practice-workflow
+on: workflow-dispatch
+jobs:
+   job1:
+      runs-on: ubuntu-latest
+      steps:
+          - name: print hello bindu
+            run: echo "Hello, Bindu!"
+          - name: ptint content
+            run: |
+              echo "she is a good girl"
+              echo "she is my wife"
